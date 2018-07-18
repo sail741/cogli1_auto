@@ -1,5 +1,21 @@
 #!/bin/bash
 
+# create the movie from oxdna with colgi.
+
+# needed parameter :
+# -d|--dat <file> : the .dat file
+# -t|--top <file> : the .top file
+
+# facultatif parameter
+# --cpy <file> : the .cpy file if you want to skip the cogli graphic part
+# --hq|--hd : if present, the output will be in hq
+# -f|--force : if present, every files will be overwrite without alert
+
+
+# author : Leo Mullot
+# date : 2018
+
+
 
 # initial parameters
 HD="0"
