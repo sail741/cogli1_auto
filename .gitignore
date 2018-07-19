@@ -1,3 +1,5 @@
 tmp-pov/*
 output.avi
 *.cpy
+.idea/*
+venv/*
