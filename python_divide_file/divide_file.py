@@ -57,6 +57,7 @@ with open(output, 'a') as f_out:
 			if line.strip().startswith('t'):
 				if read_every == cpt:
 					# if we reach cpt, then we keep this bloc
+					print("adding bloc of '" + line.strip() + "'")
 					do_write = True
 					cpt = 0
 				else:
