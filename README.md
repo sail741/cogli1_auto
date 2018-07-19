@@ -42,5 +42,5 @@ Facultatif parameter
 
 Example for specifig usage :
 ```
-./colgi1_auto.sh -d <datfile> -t <top file> --cpy <cpyfile> --hq --force
+./colgi1_auto.sh -d <datfile> -t <topfile> --cpy <cpyfile> --hq --force
 ```
