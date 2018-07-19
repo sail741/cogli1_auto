@@ -69,4 +69,4 @@ with open(output, 'a') as f_out:
 				f_out.write(line)
 
 			# And we go to the next line
-			line = fp.readline()
+			line = f_in.readline()
