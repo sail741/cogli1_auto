@@ -74,11 +74,12 @@ with open(filepath_output, 'a') as f_out:
             first_row = f_in.readline()
             if not first_row:
                 break
-            print("Added the bloc of '" + first_row.strip() + "'")
-            percent = os.stat(filepath_output).st_size / (size_input / read_every) * 100
+            print("Just added the bloc of '" + first_row.strip() + "'")
+            percent = os.stat(filepath_output).st_size / float(size_input / read_every) * 100
             print("{:.2f}% ".format(percent))
 
             # The bloc we want
+            f_out.write(first_row)
             for i in range(nb_row_bloc - 1):
                 line = f_in.readline()
                 f_out.write(line)
